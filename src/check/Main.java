@@ -21,6 +21,15 @@ public class Main {
     try {
       printStreamAssembly = new PrintStream("C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\Test.result");
 
+/*      Object s = "Hello";
+
+      if (s instanceof String t) {
+        System.out.println("String: " + t);
+      }
+      else {
+        System.out.println("No string: " + s);
+      }*/
+
       for (String arg : args) {
         printStreamAssembly.println(arg);
         checkAssembly(arg);
