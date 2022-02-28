@@ -10,10 +10,12 @@ public class CheckLog {
       PrintStream = new PrintStream("C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\Test.result");
       //checkX("C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\log64x",
       //       "C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\log64");
-      //checkX("c:\\d\\log16x", "c:\\d\\log16");
+      //checkX("c:\\d\\log1", "c:\\d\\log2");
       //checkX("C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\log64", "c:\\d\\log16");
-      checkX("C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\log64",
-             "C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code_old\\log64");
+      checkX("C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\log1",
+             "C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\log2");
+      //checkX("C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\printArgumentX.middleAfter",
+      //       "C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\printArgument.middleAfter");
       //checkX("C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\Time.asm",
       //       "C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\TimeOld.asm");
       /*test("C:\\D\\Main.com", "C:\\D\\MainA.com", 1);
@@ -44,7 +46,7 @@ public class CheckLog {
                         "SignalTest.after", "StackTest.after", "MallocTest.after",
                         "StdLibTest.after", "TimeTest.after", "Main_asm.asm"};*/
 
-/*    try {
+    /*try {
       PrintStream = new PrintStream("C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\Test.result");
       //check2(null);
 
