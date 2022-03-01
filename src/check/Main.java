@@ -7,8 +7,8 @@ public class Main {
   
   public static void main(String[] args) {
     testObject("C:\\D\\Main.com", "C:\\D\\MainA.com", 1);
-    //testObject("C:\\D\\MainA.com", "C:\\D\\Main_Asm.com", 2);
-    //testObject("C:\\D\\Main.com", "C:\\D\\Main_Asm.com", 3);
+    testObject("C:\\D\\MainA.com", "C:\\D\\Main_Asm.com", 2);
+    testObject("C:\\D\\Main.com", "C:\\D\\Main_Asm.com", 3);
     
     args = new String[]{"Main.asm", "Malloc.asm", "CType.asm", "ErrNo.asm", "Locale.asm", "Math.asm", "SetJmp.asm",      
                         "Signal.asm", "File.asm", "Temp.asm", "Scanf.asm", "Printf.asm", "StdLib.asm", "Time.asm",
@@ -19,7 +19,7 @@ public class Main {
                         "StdLibTest.asm", "TimeTest.asm"};
 
     try {
-      printStreamAssembly = new PrintStream("C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\Test.result");
+      printStreamAssembly = new PrintStream("C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\Test.result");
 
 /*      Object s = "Hello";
 
@@ -105,7 +105,7 @@ public class Main {
   }
   
   private static void checkAssembly(String arg) throws IOException {
-    String oldPath = "C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code_old\\" + arg,
+    String oldPath = "C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\codeX\\" + arg,
            newPath = "C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\" + arg;
     FileReader oldFileStream = new FileReader(oldPath),
                newFileStream = new FileReader(newPath);
