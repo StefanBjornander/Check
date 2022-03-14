@@ -10,10 +10,10 @@ public class CheckLog {
       PrintStream = new PrintStream("C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\Test.result");
       //checkX("C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\log64x",
       //       "C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\log64");
-      //checkX("c:\\d\\log1", "c:\\d\\log2");
+      checkX("c:\\d\\log1", "c:\\d\\log2");
       //checkX("C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\log64", "c:\\d\\log16");
-      checkX("C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\log1",
-             "C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\log2");
+      /* XXX checkX("C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\log1",
+             "C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\log2");*/
       //checkX("C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\printArgumentX.middleAfter",
       //       "C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\printArgument.middleAfter");
       //checkX("C:\\Users\\Stefa\\Documents\\vagrant\\homestead\\code\\code\\Time.asm",
